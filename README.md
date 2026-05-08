@@ -1,3 +1,19 @@
+# GitHub Project Sync Note
+
+Synced on 2026-05-08 from
+[`mshegolev` Project 4](https://github.com/users/mshegolev/projects/4) into
+this repository as open issues
+[#1](https://github.com/podlodka-ai-club/the-anvils/issues/1)-[#24](https://github.com/podlodka-ai-club/the-anvils/issues/24)
+with the `whilly:ready` label.
+
+The operator-side Whilly state was saved as
+`out/github-project-sync/the-anvils-project-4-state.json`; use it for Project
+status updates, for example:
+
+```bash
+whilly github-projects --state-file out/github-project-sync/the-anvils-project-4-state.json sync-status 1 "In Progress"
+```
+
 # Whilly Orchestrator
 
 Whilly Orchestrator is a control plane for AI-assisted engineering workflows.
